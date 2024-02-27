@@ -1,0 +1,25 @@
+.listPost_section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.listPost_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.listPost_item_viewLittlePost {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.listPost_item_viewMiddlePost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}

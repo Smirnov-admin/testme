@@ -1,0 +1,151 @@
+.littlePost_card {
+    width: 352px;
+    margin: 0 auto;
+}
+
+.littlePost_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.littlePost_description {
+    max-width: 222px;
+}
+
+.littlePost_date {
+    font-weight: 400;
+    color: #8d8e97
+}
+
+.littlePost_title {
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color:var(--text-color);
+}
+
+.littlePost_image img {
+    width: 96px;
+    height: 96px;
+}
+
+.littlePost_reaction_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.littlePost_reaction_elements_biLikeAndDisLike {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.littlePost_reaction_biLike {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.count_like_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.littlePost_btnBiLike {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.littlePost_btnBiLike path {
+    fill: var(--icon-color);
+}
+
+.littlePost_btnBiLike path:hover {
+    fill: green;
+}
+
+.littlePost_reaction_disLike {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.littlePost_btnDisLike {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.littlePost_btnDisLike path {
+    fill: var(--icon-color);
+}
+
+.littlePost_btnDisLike path:hover {
+    fill: #F00000;
+}
+.littlePost_reaction_elements_bookmarkAndOther {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 72px;
+}
+
+.littlePost_btnBookmark{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.littlePost_btnBookmark svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.littlePost_btnBookmark path {
+    fill: var(--icon-color);
+}
+
+.littlePost_reaction_other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.littlePost_btnOther {
+    width: 30px;
+    height: 20px;
+    border: none;
+    background: none; 
+    cursor: pointer;
+}
+
+.littlePost_btnOther svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.littlePost_btnOther path {
+    fill: var(--icon-color);
+}

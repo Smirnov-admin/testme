@@ -1,0 +1,175 @@
+.header_section {
+    height: 40px;
+    background-color: #2231aa;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.header_BurgerMenu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu_btn {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+	width: 20px;
+	height: 24px;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+    background-color: #2231AA;
+    border: none;
+	cursor: pointer;
+}
+.menu_btn span {
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #222222;
+	transition: all 0.5s;
+    background-color: white;
+}
+.menu_btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu_btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+.menu_btn.active span:nth-of-type(1) {
+    display: none;
+}
+
+.menu_btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);  
+
+}
+.menu_btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg); 
+}
+
+.header_SignInAndSearch {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_search {
+    width: 40px;
+    height: 40px;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+}
+
+.bnt_search {
+    display: block;
+    margin: 0 auto;
+    padding-top: 7px;
+    border: none;
+    background-color: #2231AA;
+    cursor: pointer;
+}
+
+.input_search {
+    width: 1522px;
+    overflow: hidden;
+}
+
+.header_authorization {
+    width: 40px;
+    height: 40px;
+    border-right: 1px solid #FFF; 
+    cursor: pointer;
+}
+
+.btn_signIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 7px;
+    padding-left: 7px;
+    border: none;
+    background-color: #2231AA;
+}
+
+.header_BurgerMenu_list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    width: 236px;
+    background: #FFF;
+    /* overflow: hidden; */
+}
+
+.header_BurgerMenu_userName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 53px;
+    background: #2231AA;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+.header_BurgerMenu_userName_text {
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+}
+
+.header_BurgerMenu_navigation a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #313037;
+    height: 53px;
+    border-bottom: 1px solid #dadada;
+}
+
+.header_BurgerMenu_theme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 53px;
+}
+
+.header_BurgerMenu_theme_dark {
+    margin: 0 auto;
+    border: none;
+    background: none;
+    width: 236px;
+    cursor: pointer;
+}
+
+.header_BurgerMenu_btnSignIn {
+    margin: 0 auto;
+    border: none;
+    background: #e8e8e8;
+    width: 236px;
+    height: 53px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #313037;
+    cursor: pointer;
+}

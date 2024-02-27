@@ -1,0 +1,164 @@
+.largePost_card {
+    width: 736px;
+    margin: 0 auto;
+}
+
+.largePost_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.largePost_description {
+    max-width: 448px;
+}
+
+.largePost_date {
+    font-weight: 400;
+    color: #8d8e97
+}
+
+.largePost_title {
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    color:var(--text-color);
+}
+
+.largePost_text {
+    padding-top: 24px;
+    font-weight: 400;
+    color: #8d8e97;
+    -webkit-line-clamp: 6; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    vertical-align: top;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.largePost_image img {
+    width: 256px;
+    height: 244px;
+}
+
+.largePost_reaction_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom:48px;
+    border-bottom: 1px solid #dadada;
+}
+
+.largePost_reaction_elements_biLikeAndDisLike {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.largePost_reaction_biLike {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.count_like_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.largePost_btnBiLike {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.largePost_btnBiLike path {
+    fill: var(--icon-color);
+}
+
+.largePost_btnBiLike path:hover {
+    fill: green;
+}
+
+.largePost_reaction_disLike {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.largePost_btnDisLike {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.largePost_btnDisLike path {
+    fill: var(--icon-color);
+}
+
+.largePost_btnDisLike path:hover {
+    fill: #F00000;
+}
+
+.largePost_reaction_elements_bookmarkAndOther {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 72px;
+}
+
+.largePost_btnBookmark{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.largePost_btnBookmark svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.largePost_btnBookmark path {
+    fill: var(--icon-color);
+}
+
+.largePost_reaction_other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.largePost_btnOther {
+    width: 30px;
+    height: 20px;
+    border: none;
+    background: none; 
+    cursor: pointer;
+}
+
+.largePost_btnOther svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.largePost_btnOther path {
+    fill: var(--icon-color);
+}

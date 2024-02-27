@@ -1,0 +1,27 @@
+.footer_section {
+    padding: 34px;
+}
+
+.footer_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 34px 0;
+    max-width: 1200px;
+    border-top: 1px solid #dadada;
+}
+
+.content_developer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8d8e97;
+}
+
+.content_allRights {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8d8e97;
+}

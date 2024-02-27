@@ -1,0 +1,59 @@
+.success_section {
+    margin: 0 auto;
+    padding-top: 72px;
+    max-width: 1200px;
+}
+
+.success_btnBackHome {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.success_title {
+    padding-top: 32px;
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--text-color);
+}
+
+.success_authorizationForm_item {
+    display: flex;
+    flex-direction: column;
+    margin: 81px auto;
+    border: 1px solid #dadada;      
+    max-width: 624px;
+    padding: 40px;
+}
+
+.success_authorization_item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 100%;
+}
+
+.success_authorization_title {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.success_authorization_text {
+    font-size: 18px;
+    color: var(--text-color);
+    padding-bottom: 48px;
+}
+
+.success_authorazation_btnGoHome {
+    margin: 0 auto;
+    padding: 16px 32px;
+    width: 544px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+    color: #FFF;
+    background: #2231aa;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.light {  
+    --background-color:#fff;
+    --text-color: #313037;
+    --arrow-color: #313037;
+    --icon-color: #313037;
+  }
+  
+  .dark {  
+    --background-color: #313037;
+    --text-color: #FFF;
+    --arrow-color: #FFF;
+    --icon-color: #FFF;
+  }
